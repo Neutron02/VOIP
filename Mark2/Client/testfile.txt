@@ -1,0 +1,10 @@
+This is some testing text
+
+This file should appear in the server if the client is able to send it properly
+And if the server is able to receive it properly
+
+At this point I am just adding random text
+
+            This is a few tabs over
+
+        1234

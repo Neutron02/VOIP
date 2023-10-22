@@ -1,0 +1,18 @@
+STEPS TO GET THE AUDIO RECORDER WORKING PROPERLY WITH DEPENDENCIES
+
+Install the Port audio dependency from http://www.portaudio.com/download.html
+
+Extract it
+./configure
+make
+
+sudo make install
+
+sudo apt-get install libsndfile1
+
+g++ -o audio_recorder record_audio.cpp -lportaudio -lsndfile -lm -lsndfile
+
+sudo apt-get update
+sudo apt-get install portaudio19-dev
+
+Run the audio recorder to your hearts desire

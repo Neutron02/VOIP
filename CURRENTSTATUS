@@ -1,0 +1,5 @@
+Implementing the changes to handleClient so that it can forward files from A to B
+CLient has no verified receiving ability
+Client has an id
+Client has no implementation of sending its id yet
+Server has no logic to figure out who is who yet
